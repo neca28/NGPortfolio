@@ -1,0 +1,153 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="style/style.css"/>
+        <script src="https://kit.fontawesome.com/3d0f59992a.js" crossorigin="anonymous"></script>
+        <script>
+            function openProject(){
+                window.open("https://ofkbozdarevac.000webhostapp.com/", "_blank");
+            }
+        </script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"/>
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <nav>
+             <div id="navime">
+                <a href="#"><h1>NEMANJA GOSIC</h1></a>
+            </div>
+            <div id="navlist">
+                <ul>
+                    <li><a class="menilink" href="#about_me">ABOUT ME</a></li>
+                    <li><a class="menilink" href="#education">EDUCATION</a></li>
+                    <li><a class="menilink" href="#skills">SKILLS</a></li>
+                    <li><a class="menilink" href="#projects">PROJECTS</a></li>
+                    <li><a class="menilink" href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <div id="navsocial">
+                <ul>
+                    <li><a href="https://www.facebook.com/pojimsvinje/" target="blank"><i class="zmdi zmdi-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/nemanja.gosic/"><i class="zmdi zmdi-instagram"></i></a></li>
+                    <li id="phone"><a href="tel:+381652061613"><i class="zmdi zmdi-phone"></i>
+                    </a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="dropnav">
+            <ul>
+                <li><a class="menilink" href="#about_me">ABOUT ME</a></li>
+                <li><a class="menilink" href="#education">EDUCATION</a></li>
+                <li><a class="menilink" href="#skills">SKILLS</a></li>
+                <li><a class="menilink" href="#projects">PROJECTS</a></li>
+                <li><a class="menilink" href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="wrapper">
+            <div class="slika-autor">
+                <img src="images/slika_autor.JPG" alt="NEMANJA GOSIC"/>
+            </div>
+
+            <div class="grid">
+                <div class="clspall grid-naslov">
+                    <h2 id="about_me">ABOUT ME</h2>
+                </div>
+                <div class="kartica clspall">
+                    <h3>Little something about myself..</h3>
+                    <p>I was born in Belgrade in early 2002. As I was growing up i fell in love with computers, as a child I was creative and clever. 
+                        <br/>Now my love for computers had grown into a passion and I would love for it to be my profession.<br/> I am hard working and an optimistic person. Always eager to learn new skills.
+                    </p>
+                </div>
+                <div class="clspall grid-naslov">
+                    <h2 id="education">EDUCATION</h2>
+                </div>
+                <div class="kartica">
+                    <h3><i class="zmdi zmdi-layers"></i></h3>
+                    <h3>Elementary school</h3>
+                    <p>I went to elementary school in my home place of Barajevo, at that age i was passing wih all A's.
+                         I was mostly intrested in Mathematics and Physics.
+                    </p>
+                </div>
+                <div class="kartica">
+                    <h3><i class="fa-solid fa-school"></i></h3>
+                    <h3>High school</h3>
+                    <p>High School of Electrical Engineering "Nikola Tesla" was a great place for creating a great base in all fields of computer science.<br/>
+                         I spent great 4 years there building great foundation for future. 
+                    </p>
+                </div>
+                <div class="kartica">
+                    <h3><i class="fa-solid fa-graduation-cap"></i></h3>
+                    <h3>College</h3>
+                    <p>Im currently studying at ICT college where I am progressing in every field of computer science, but most of my attention goes to web design.
+                    </p>
+                </div>
+                <div class="clspall grid-naslov">
+                    <h2 id="skills">SKILLS</h2>
+                </div>
+                <div class="kartica skills good">
+                    <h3>C++/C#</h3>
+                    <h3><i class="fa-solid fa-check-double"></i></h3>
+                </div>
+                <div class="kartica skills">
+                    <h3><i class="fa-brands fa-python"></i><br/></h3>
+                    <h3><i class="fa-solid fa-check"></i></h3>
+                </div>
+                <div class="kartica skills good">
+                    <h3><i class="fa-brands fa-php"></i></h3>
+                    <h3><i class="fa-solid fa-check-double"></i></h3>
+                </div>
+                <div class="kartica skills good">
+                    <h3><i class="fa-brands fa-css3"></i></h3>
+                    <h3><i class="fa-solid fa-check-double"></i></h3>
+                </div>
+                <div class="kartica skills good">
+                    <h3><i class="fa-brands fa-html5"></i></h3>
+                    <h3><i class="fa-solid fa-check-double"></i></h3>
+                </div>
+                <div class="kartica skills">
+                    <h3><i class="fa-brands fa-js"></i></h3>
+                    <h3><i class="fa-solid fa-check"></i></h3>
+                </div>
+                <div class="clspall grid-naslov">
+                    <h2 id="projects">PROJECTS</h2>
+                </div>
+                <div id="ofk-bozdarevac" class="kartica clspall projekat" onclick="openProject()">
+                </div>
+                <div class="kartica clspall projekat">
+                    <h3>MORE COMING SOON..</h3>
+                </div>
+                <div class="kartica clspall contact">
+                    <h2 id="contact">CONTACT</h2>
+                    <form action="#" method="get">
+                        <div>
+                            <input type="text" name="name" id="name" placeholder="NAME" required/>
+                        </div>    
+                        <input type="text" name="name" id="nameKon" placeholder="SURNAME" required/>
+                        <div>
+                            <input type="email" placeholder="EMAIL" name="email" id="email"/>
+                        </div>
+                        <div>
+                        <textarea name="info" id="info" cols="35" placeholder="WHAT YOU WANT TO KNOW?" rows="5"></textarea>
+                        </div>
+                        <div class="subbtn">
+                            <input type="submit" id="submit" value="SEND"/>
+                        </div>
+                      </form>
+                </div>
+               
+            </div>
+
+        </div>
+         <div class="footer">
+            <div class="icons">
+                <ul>
+                    <li><a href="#"><i class="zmdi zmdi-language-css3"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-sass"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-sitemap"></i></a></li>
+                </ul>
+            </div>
+            <div class="signature">Created by <a href="#">Nemanja Gosic</a><br/>@2022 All rights reserved</div>
+        </div>
+    </body>
+</html>
