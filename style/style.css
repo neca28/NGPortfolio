@@ -420,18 +420,6 @@ input:focus,textarea:focus{
         text-decoration: none;
         color: #f0f0f0;
     }
-    .menilink::after{
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        height: 5px;
-        width: 100%;
-        background-color: #fff;
-        box-shadow: 0 0 6px #fff;
-        transform: scaleX(0);
-        transition: transform 300ms ease;
-    }
     #dropnav ul li a:hover{
         color:#fff;
         text-shadow: 0 0 6px #fff;
@@ -440,111 +428,19 @@ input:focus,textarea:focus{
         transform: scaleX(1)
     }
 
-    #navime a{
-        padding: 0;
-        font-size: 4rem;
-        text-decoration: none;
-        color: #f0f0f0;
-    }
-    #navime a:hover{
-        color:#fff;
-        text-shadow: 0 0 6px #fff;
-    }
-    #navime{
-        display: flex;
-        align-items: center;
-    }
-    #navime i{
-        margin-right: 10px;
-        font-size: 4rem;
-        color: #f0f0f0;
-    }
-    #navime i:hover{
-        color:#fff;
-        text-shadow: 0 0 6px #fff;
-    }
-
-
     #navlist{
         display:none;
     }
-    #navlist ul{
-        display: flex;
-    }
-    #navlist ul li{
-        text-align: center;
-        list-style-type: none;
-        margin-inline: 2em;
-    }
-    #navlist ul li a{
-        position: relative;
-        padding: 0 6px;
-        font-size: 2em;
-        text-decoration: none;
-        color: #f0f0f0;
-    }
-    .menilink::after{
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        height: 5px;
-        width: 100%;
-        background-color: #fff;
-        box-shadow: 0 0 6px #fff;
-        transform: scaleX(0);
-        transition: transform 300ms ease;
-    }
-    #navlist ul li a:hover{
-        color:#fff;
-        text-shadow: 0 0 6px #fff;
-    }
-    #navlist ul li a:hover.menilink::after{
-        transform: scaleX(1)
-    }
-
-
-    #navsocial ul {
-        display: flex;
-    }
-    #navsocial ul li{
-        list-style-type: none;
-        margin-inline: 2em;
-    }
-    #navsocial ul li a{
-        color: #f0f0f0;
-        font-size: 3em;
-    }
-    #navsocial ul li a:hover{
-        text-shadow: 0 0 6px #fff;
-        color: #fff;
-    }
+    
     #phone{
         display:block;
     }
 
     .wrapper{
         width: 80%;
-        height: 4500px;
+        height: 4800px;
         background-color: rgba(0,0,0,.4 );
         margin: 1rem auto 0 auto;
-    }
-    .slika-autor{
-        display: flex;
-        justify-content: center;
-    }
-    .slika-autor img{
-        width: 50%; 
-        margin: 2em 0;
-        border-radius: 50%;
-        border: 3px solid rgba(0,0,0,0);
-        filter: brightness(50%);
-        transition: filter 100ms ease;
-    }
-    .slika-autor img:hover{
-        border: 3px solid white;
-        box-shadow: 0 0 10px white;
-        filter: brightness(100%);
     }
     .grid{
         margin: 2em auto;
@@ -563,18 +459,7 @@ input:focus,textarea:focus{
         border: 1px solid rgba(0,0,0,0);
         margin-bottom: 1em;
     }
-    .kartica h3 i{
-        font-size: 2em;
-    }
-    .kartica:hover{
-        box-shadow: 0 0 10px #fff;
-        border: 1px solid white;
-    }
-    .clspall{
-        background-image: none;
-        background-color: rgba(0,0,0,.4);
-        column-span: span 1;
-    }
+    
     .grid-naslov{
         background-color: rba(0,0,0,0);
         color: #f0f0f0;
@@ -692,22 +577,13 @@ input:focus,textarea:focus{
 }
 
 @media screen and (min-width:435px) and (max-width:570px){
-    h1{
-        font-size: 4.5rem;
-    }
-    nav{
-        background-color: rgba(0,0,0,.4 );
-        width: 100%;
-        text-align: center;
-        
-    }
-
     #dropnav{
         background-color: rgba(0,0,0,.4 );
         width: 100%;
         padding: 5px 0;
         border-bottom-left-radius: 3px;
         border-bottom-right-radius: 3px;
+        display: block;
     }
     #dropnav ul li{
         text-align: center;
@@ -721,18 +597,6 @@ input:focus,textarea:focus{
         text-decoration: none;
         color: #f0f0f0;
     }
-    .menilink::after{
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        height: 5px;
-        width: 100%;
-        background-color: #fff;
-        box-shadow: 0 0 6px #fff;
-        transform: scaleX(0);
-        transition: transform 300ms ease;
-    }
     #dropnav ul li a:hover{
         color:#fff;
         text-shadow: 0 0 6px #fff;
@@ -741,105 +605,32 @@ input:focus,textarea:focus{
         transform: scaleX(1)
     }
 
-    #navime a{
-        padding: 0;
-        font-size: 4rem;
-        text-decoration: none;
-        color: #f0f0f0;
-    }
-    #navime a:hover{
-        color:#fff;
-        text-shadow: 0 0 6px #fff;
-    }
     #navlist{
         display:none;
     }
-    #navlist ul{
-        display: flex;
-    }
-    #navlist ul li{
-        text-align: center;
-        list-style-type: none;
-        margin-inline: 2em;
-    }
-    #navlist ul li a{
-        position: relative;
-        padding: 0 6px;
-        font-size: 2em;
-        text-decoration: none;
-        color: #f0f0f0;
-    }
-    .menilink::after{
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        height: 5px;
-        width: 100%;
-        background-color: #fff;
-        box-shadow: 0 0 6px #fff;
-        transform: scaleX(0);
-        transition: transform 300ms ease;
-    }
-    #navlist ul li a:hover{
-        color:#fff;
-        text-shadow: 0 0 6px #fff;
-    }
-    #navlist ul li a:hover.menilink::after{
-        transform: scaleX(1)
-    }
-
-    #navsocial{
-        text-align: center;
-        margin: 0 auto;
-    }
-    #navsocial ul {
+    nav{
         display: block;
     }
-    #navsocial ul li{
-        list-style-type: none;
-        margin-inline: 2em;
+    #navsocial ul{
+        justify-self: center;
+        align-items: center;
     }
-    #navsocial ul li a{
-        color: #f0f0f0;
-        font-size: 3em;
-    }
-    #navsocial ul li a:hover{
-        text-shadow: 0 0 6px #fff;
-        color: #fff;
-    }
+    
     #phone{
         display:block;
     }
 
     .wrapper{
         width: 80%;
-        height: 4700px;
+        height: 4500px;
         background-color: rgba(0,0,0,.4 );
         margin: 1rem auto 0 auto;
-    }
-    .slika-autor{
-        display: flex;
-        justify-content: center;
-    }
-    .slika-autor img{
-        width: 70%; 
-        margin: 2em 0;
-        border-radius: 50%;
-        border: 3px solid rgba(0,0,0,0);
-        filter: brightness(50%);
-        transition: filter 100ms ease;
-    }
-    .slika-autor img:hover{
-        border: 3px solid white;
-        box-shadow: 0 0 10px white;
-        filter: brightness(100%);
     }
     .grid{
         margin: 2em auto;
         width: 95%;
         display: block;
-
+        columns: 1;
     }
     .kartica{
         min-height: 15rem;
@@ -852,21 +643,7 @@ input:focus,textarea:focus{
         border: 1px solid rgba(0,0,0,0);
         margin-bottom: 1em;
     }
-    .kartica:nth-child(6){
-        grid-column-start: span 2;
-    }
-    .kartica h3 i{
-        font-size: 2em;
-    }
-    .kartica:hover{
-        box-shadow: 0 0 10px #fff;
-        border: 1px solid white;
-    }
-    .clspall{
-        background-image: none;
-        background-color: rgba(0,0,0,.4);
-        
-    }
+    
     .grid-naslov{
         background-color: rba(0,0,0,0);
         color: #f0f0f0;
@@ -887,23 +664,11 @@ input:focus,textarea:focus{
         min-height: 10rem;
         font-size: 3em;
     }
-
-    .skills:hover{
-        color: #f5ed9a;
-        box-shadow: 0 0 10px #f5ed9a;
-        text-shadow: 0 0 6px #f5ed9a;
-    }
-    .good:hover{
-        color: #befabe;
-        box-shadow: 0 0 10px #befabe;
-        text-shadow: 0 0 6px #befabe;
-    }
-
     .projekat{
         display:flex;
         align-items:center;
         justify-content: center;
-        font-size: 3em;
+        font-size: 4em;
     }
     .projekat:hover{
         text-shadow: 0 0 6px #fff;
@@ -922,9 +687,8 @@ input:focus,textarea:focus{
     .contact:hover h2{
         text-shadow: 0 0 6px #fff;
     }
-
     input,textarea{
-        width: 250px;
+        width: 350px;
         padding: 10px;
         margin: 5px 0;
         background-color: rgba(0,0,0,.6 );
@@ -950,6 +714,7 @@ input:focus,textarea:focus{
         width: 100%;
         background-color: rgba(0,0,0,.9);
         color: #fff;
+        display: flex;
         justify-content: center;
     }
     .icons{
