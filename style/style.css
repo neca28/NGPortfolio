@@ -610,6 +610,11 @@ input:focus,textarea:focus{
     }
     nav{
         display: block;
+        text-align: center;
+    }
+    #navsocial{
+        display: flex;
+        justify-content: center;
     }
     #navsocial ul{
         justify-self: center;
@@ -622,7 +627,7 @@ input:focus,textarea:focus{
 
     .wrapper{
         width: 80%;
-        height: 4500px;
+        height: 4700px;
         background-color: rgba(0,0,0,.4 );
         margin: 1rem auto 0 auto;
     }
@@ -670,81 +675,14 @@ input:focus,textarea:focus{
         justify-content: center;
         font-size: 4em;
     }
-    .projekat:hover{
-        text-shadow: 0 0 6px #fff;
-    }
-    #ofk-bozdarevac{
-        background-image: url(../images/projekat.JPG);
-        background-size: cover;
-        filter:grayscale();
-        color: black;
-        transition: filter;
-    }
-    #ofk-bozdarevac:hover{
-        filter: none;
-    }
-
-    .contact:hover h2{
-        text-shadow: 0 0 6px #fff;
-    }
     input,textarea{
-        width: 350px;
+        width: 300px;
         padding: 10px;
         margin: 5px 0;
         background-color: rgba(0,0,0,.6 );
         border: 1px solid rgba(0,0,0,0);
         border-radius: 2px;
         color:#f0f0f0;
-    }
-
-    input:focus,textarea:focus{
-        box-shadow: 0 0 6px white;
-    } 
-    .subbtn input{
-        font-family: Oswald, sans-serif; ;
-        font-size: 1em;
-    }
-    .subbtn input:focus,.subbtn input:hover{
-        text-shadow: 0 0 6px white;
-        box-shadow: 0 0 6px white;
-    }  
-
-
-    .footer{
-        width: 100%;
-        background-color: rgba(0,0,0,.9);
-        color: #fff;
-        display: flex;
-        justify-content: center;
-    }
-    .icons{
-        color:#f0f0f0;
-    }
-
-    .icons ul{
-        display:flex;
-    }
-    .icons ul li{
-        list-style-type: none;
-        margin-inline: 2em;
-    }
-    .icons ul li a{
-        text-decoration: none;
-        color:#f0f0f0;
-        font-size: 2em;
-    }
-    .icons ul li a:hover{
-        text-shadow: 0 0 6px #fff;
-        color: #fff;    
-    }
-    .signature a{
-        text-decoration: none;
-        color:#f0f0f0;
-        font-size: 1.2rem;
-    }
-    .signature a:hover{
-        color: #fff;
-        text-shadow: 0 0 6px #fff;
     }
 }
 
@@ -756,10 +694,12 @@ input:focus,textarea:focus{
         background-color: rgba(0,0,0,.4 );
         width: 100%;
         text-align: center;
-        
+        display: block;
+        padding: 0;
     }
 
     #dropnav{
+        display: block;
         background-color: rgba(0,0,0,.4 );
         width: 100%;
         padding: 5px 0;
@@ -797,7 +737,6 @@ input:focus,textarea:focus{
     #dropnav ul li a:hover.menilink::after{
         transform: scaleX(1)
     }
-
     #navime a{
         padding: 0;
         font-size: 4rem;
@@ -849,9 +788,11 @@ input:focus,textarea:focus{
     #navsocial{
         text-align: center;
         margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
     #navsocial ul {
-        display: block;
+        display: flex;
     }
     #navsocial ul li{
         list-style-type: none;
@@ -896,7 +837,7 @@ input:focus,textarea:focus{
         margin: 2em auto;
         width: 95%;
         display: block;
-
+        columns: 1;
     }
     .kartica{
         min-height: 15rem;
@@ -910,7 +851,7 @@ input:focus,textarea:focus{
         margin-bottom: 1em;
     }
     .kartica:nth-child(6){
-        grid-column-start: span 2;
+        grid-column-start: span 1;
     }
     .kartica h3 i{
         font-size: 2em;
@@ -1007,7 +948,9 @@ input:focus,textarea:focus{
         width: 100%;
         background-color: rgba(0,0,0,.9);
         color: #fff;
+        text-align: center;
         justify-content: center;
+        display: block;
     }
     .icons{
         color:#f0f0f0;
@@ -1015,6 +958,7 @@ input:focus,textarea:focus{
 
     .icons ul{
         display:flex;
+        justify-content: center;
     }
     .icons ul li{
         list-style-type: none;
